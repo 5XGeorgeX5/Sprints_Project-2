@@ -21,7 +21,7 @@ public class GreetingController {
     }
 
     @Autowired
-    public void setEveningGreetingService(@Qualifier("eveningGreetingService") GreetingService eveningGreetingService) {
+    public void setEveningGreetingService(@Qualifier("evening") GreetingService eveningGreetingService) {
         this.eveningGreetingService = eveningGreetingService;
     }
 
