@@ -1,4 +1,4 @@
-package com.team2.library.controller;
+package com.team2.library;
 
 import com.team2.library.config.LibraryConfig;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,5 +16,10 @@ public class LibraryController {
     @GetMapping("/library-info")
     public String getLibraryInfo() {
         return libraryConfig.toString();
+    }
+
+    @GetMapping("/health")
+    public String PrintOk(){
+        return "OK";
     }
 }

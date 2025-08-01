@@ -1,6 +1,6 @@
-package com.team2.library.controller;
+package com.team2.library.greeting;
 
-import com.team2.library.service.GreetingService;
+import com.team2.library.greeting.service.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
