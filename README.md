@@ -3,7 +3,7 @@
 ## Project Overview
 This is a Spring Boot application demonstrating various core Spring concepts including dependency injection, configuration management, component scanning, and JPA data access. The project implements a simple library management system with book CRUD operations.
 
-##Here is the Repo link for clear commits:
+## Here is the Repo link for clear commits:
 https://github.com/5XGeorgeX5/Sprints_Project-2.git
 
 ## Repository Structure
