@@ -122,12 +122,13 @@ Directory structure:
 - `GET /notify/sms` - Sends SMS notification
 
 ### Book Management
-- `GET /api/books/` - Sends 
-- `GET /api/books/` - Sends 
-- `GET /api/books/` - Sends 
-- `POST /api/books/` - Sends 
-- `PUT /api/books/` - Sends 
-- `DELETE /api/books/` - Sends 
+- `GET /api/books/` - Returns all books 
+- `GET /api/books/{id}` - Return book with selected id 
+- `GET /api/books/author/{author}` - Return books with selected author
+-  `GET /api/books/search` - Return books with selected keyword
+- `POST /api/books/` - Create a book 
+- `PUT /api/books/{id}` - Update a book with selected id
+- `DELETE /api/books/{id}` - Delete a book with selected id
 
 ## Running the Application
 
