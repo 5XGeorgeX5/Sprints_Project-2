@@ -1,4 +1,4 @@
-package com.team2.library.greeting;
+package com.team2.library.greeting.controller;
 
 import com.team2.library.greeting.service.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;

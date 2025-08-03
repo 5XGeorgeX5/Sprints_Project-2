@@ -1,6 +1,5 @@
-package com.team2.library;
+package com.team2.library.common.controller;
 
-import com.team2.library.config.LibraryConfig;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
